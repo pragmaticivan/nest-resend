@@ -1,6 +1,6 @@
 <p align="center">
   <h3 align="center">
-    nestjs-resend
+    nest-resend
   </h3>
 
   <p align="center">
@@ -20,7 +20,7 @@
 
 ## About
 
-`nestjs-resend` implements a module, `ResendModule`, which when imported into
+`nest-resend` implements a module, `ResendModule`, which when imported into
 your nestjs project provides a Resend client to any class that injects it. This
 lets Resend be worked into your dependency injection workflow without having to
 do any extra work outside of the initial setup.
@@ -28,16 +28,16 @@ do any extra work outside of the initial setup.
 ## Installation
 
 ```bash
-npm install --save nestjs-resend
+npm install --save nest-resend
 ```
 
 ## Getting Started
 
-The simplest way to use `nestjs-resend` is to use `ResendModule.forRoot`
+The simplest way to use `nest-resend` is to use `ResendModule.forRoot`
 
 ```typescript
 import { Module } from '@nestjs-common';
-import { ResendModule } from 'nestjs-resend';
+import { ResendModule } from 'nest-resend';
 
 @Module({
   imports: [
@@ -54,7 +54,7 @@ custom decorator
 
 ```typescript
 import { Injectable } from '@nestjs/common';
-import { InjectResend } from 'nestjs-resend';
+import { InjectResend } from 'nest-resend';
 import { Resend } from 'resend';
 
 @Injectable()
@@ -67,7 +67,7 @@ Asynchronous setup is also supported
 
 ```typescript
 import { Module } from '@nestjs-common';
-import { ResendModule } from 'nestjs-resend';
+import { ResendModule } from 'nest-resend';
 
 @Module({
   imports: [
