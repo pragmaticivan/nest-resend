@@ -12,9 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: release
-        uses: GoogleCloudPlatform/release-please-action@v2
+        uses: GoogleCloudPlatform/release-please-action@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
           package-name: nest-resend
       - if: ${{ steps.release.outputs.release_created }}
