@@ -60,6 +60,15 @@ import { Resend } from 'resend';
 @Injectable()
 export class AppService {
   public constructor(@InjectResend() private readonly resendClient: Resend) {}
+
+  sendEmail() {
+    return this.resendClient.send({
+      from: 'you@nestjs.com',
+      to: 'user@nestjs.com',
+      subject: 'Howdy!',
+      html: '<strong>YAY!</strong>',
+    });
+  }
 }
 ```
 
