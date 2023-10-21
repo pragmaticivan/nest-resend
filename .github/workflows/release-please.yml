@@ -3,13 +3,13 @@ on:
     branches:
       - main
 name: release-please
-permissions:
-  contents: write
-  pull-requests: write
-  id-token: write
 jobs:
   release-please:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
     steps:
       - id: release
         uses: GoogleCloudPlatform/release-please-action@v3

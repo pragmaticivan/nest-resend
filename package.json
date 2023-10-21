@@ -8,8 +8,8 @@
     "prebuild": "rimraf lib",
     "build": "tsc",
     "test": "npm run test:unit",
-    "test:coverage": "jest --coverage",
-    "test:unit": "jest --passWithNoTests",
+    "test:cov": "jest --coverage",
+    "test:unit": "jest",
     "test:watch": "jest --watch"
   },
   "repository": {
