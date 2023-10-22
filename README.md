@@ -62,7 +62,7 @@ export class AppService {
   public constructor(@InjectResend() private readonly resendClient: Resend) {}
 
   sendEmail() {
-    return this.resendClient.send({
+    return this.resendClient.emails.send({
       from: 'you@nestjs.com',
       to: 'user@nestjs.com',
       subject: 'Howdy!',
