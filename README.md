@@ -1,12 +1,4 @@
-<p align="center">
-  <h3 align="center">
-    nest-resend
-  </h3>
-
-  <p align="center">
-    Injectable Resend client for your nestjs projects
-  </p>
-</p>
+![nest-resend](https://github.com/pragmaticivan/nest-resend/assets/301291/3018c210-3e74-41cd-93a2-891e313c7dbe)
 
 ## Table Of Contents
 
