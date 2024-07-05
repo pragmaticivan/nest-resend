@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.0.0](https://github.com/pragmaticivan/nest-resend/compare/v2.0.0...v3.0.0) (2024-07-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* Peer resend dependency bump to major version
+
+### Features
+
+* update resend peer dep ([a884024](https://github.com/pragmaticivan/nest-resend/commit/a884024e8927e679b7860c4ce41139a97ae35c69))
+* workflows cleanup ([3b05987](https://github.com/pragmaticivan/nest-resend/commit/3b059870abb08f63df548706204fa4fd16d9852f))
+
 ## [2.0.0](https://github.com/pragmaticivan/nest-resend/compare/v1.0.0...v2.0.0) (2023-11-26)
 
 
