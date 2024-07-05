@@ -1,29 +1,19 @@
 ![nest-resend](https://github.com/pragmaticivan/nest-resend/assets/301291/3018c210-3e74-41cd-93a2-891e313c7dbe)
 
-## Table Of Contents
-
-- [Table Of Contents](#table-of-contents)
-- [About](#about)
-- [Installation](#installation)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
-## About
+## 🐕 About
 
 `nest-resend` implements a module, `ResendModule`, which when imported into
 your nestjs project provides a Resend client to any class that injects it. This
 lets Resend be worked into your dependency injection workflow without having to
 do any extra work outside of the initial setup.
 
-## Installation
+## 🤖 Installation
 
 ```bash
 npm install --save nest-resend
 ```
 
-## Getting Started
+## 🎇 Getting Started
 
 The simplest way to use `nest-resend` is to use `ResendModule.forRoot`
 
@@ -83,7 +73,7 @@ import { ResendModule } from 'nest-resend';
 export class AppModule {}
 ```
 
-## Contributing
+## 🥷 Contributing
 
 I would greatly appreciate any contributions to make this project better. Please
 make sure to follow the below guidelines before getting your hands dirty.
@@ -94,14 +84,13 @@ make sure to follow the below guidelines before getting your hands dirty.
 4. Push your changes to your remote branch
 5. Open a pull request
 
-## License
 
-Distributed under the APACHE2 License. See `LICENSE` for more information.
-
-## Acknowledgements
+## 👏 Acknowledgements
 
 - [nestjs](https://nestjs.com)
 - [nestjs-otel](https://github.com/pragmaticivan/nestjs-otel)
 - [nestjs-stripe](https://github.com/dhaspden/nestjs-stripe)
 
-Copyright &copy; 2022 Ivan Santos
+## 📝 License
+
+The code is available under the [Apache 2 license](https://github.com/pragmaticivan/nestjs-resend/blob/main/LICENSE).
