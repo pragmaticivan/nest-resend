@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/pragmaticivan/nest-resend/compare/v3.0.0...v3.1.0) (2025-02-01)
+
+
+### Features
+
+* **deps:** Update packages and support nestjs 11 ([31a3ad3](https://github.com/pragmaticivan/nest-resend/commit/31a3ad33c802bf809d5fddeb83f0e35366336e55))
+
 ## [3.0.0](https://github.com/pragmaticivan/nest-resend/compare/v2.0.0...v3.0.0) (2024-07-05)
 
 
