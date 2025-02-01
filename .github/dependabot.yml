@@ -26,4 +26,3 @@ updates:
           - "*"
         exclude-patterns:
           - "@nestjs*"
-          - "@opentelemetry*"
